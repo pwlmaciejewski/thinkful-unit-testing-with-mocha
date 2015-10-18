@@ -6,7 +6,7 @@
 
 To setup the project you need to change [Node.js](https://nodejs.org/) installed on your machine.
 
-```
+```sh
 git clone git@github.com:pwlmaciejewski/thinkful-unit-testing-with-mocha.git
 cd thinkful-unit-testing-with-mocha
 npm install # install dependencies
@@ -14,6 +14,6 @@ npm install # install dependencies
 
 Test if everything went ok:
 
-```
+```sh
 npm test
 ```
