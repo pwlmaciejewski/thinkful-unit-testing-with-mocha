@@ -27,8 +27,7 @@ You should get the following output:
 
   1 passing (8ms)
 ```
-
-Materials:
+## Materials
 
 * Mocha's documentation: [https://mochajs.org/](https://mochajs.org/)
 * Assert module: [https://nodejs.org/api/assert.html](https://nodejs.org/api/assert.html)
