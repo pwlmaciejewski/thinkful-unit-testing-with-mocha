@@ -12,8 +12,18 @@ cd thinkful-unit-testing-with-mocha
 npm install # install dependencies
 ```
 
-Test if everything went ok:
+Test if everything is ok:
 
 ```sh
 npm test
+```
+
+You should get the following output:
+
+```sh
+  Store
+    ✓ Does nothing
+
+
+  1 passing (8ms)
 ```

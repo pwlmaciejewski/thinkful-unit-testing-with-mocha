@@ -1,0 +1,22 @@
+{
+  "name": "thinkful-unit-testing-with-mocha",
+  "version": "1.0.0",
+  "description": "\"Unit Testing with Mocha\" workshop material",
+  "main": "store.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwlmaciejewski/thinkful-unit-testing-with-mocha.git"
+  },
+  "author": "Pawel Maciejewski <fragphace@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwlmaciejewski/thinkful-unit-testing-with-mocha/issues"
+  },
+  "homepage": "https://github.com/pwlmaciejewski/thinkful-unit-testing-with-mocha#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
