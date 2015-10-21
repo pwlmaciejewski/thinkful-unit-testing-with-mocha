@@ -1,6 +1,6 @@
 # Unit testing with Mocha
 
-"[Unit testing with Mocha]()" workshop @ [Thinkful](http://thinkful.com)
+"[Unit testing with Mocha](https://open-sessions.thinkful.com/workshops/unit-testing-with-mocha-and-assert-510/)" workshop @ [Thinkful](http://thinkful.com)
 
 ## Installation
 
