@@ -4,7 +4,8 @@
   "description": "\"Unit Testing with Mocha\" workshop material",
   "main": "store.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "test-done": "mocha test.done.js"
   },
   "repository": {
     "type": "git",
