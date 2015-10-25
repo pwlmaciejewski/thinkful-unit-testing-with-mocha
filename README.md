@@ -1,6 +1,6 @@
 # Unit testing with Mocha
 
-"[Unit testing with Mocha]()" workshop @ [Thinkful](http://thinkful.com)
+"[Unit testing with Mocha](https://open-sessions.thinkful.com/workshops/unit-testing-with-mocha-and-assert-510/)" workshop @ [Thinkful](http://thinkful.com)
 
 ## Installation
 
@@ -27,3 +27,7 @@ You should get the following output:
 
   1 passing (8ms)
 ```
+## Materials
+
+* Mocha's documentation: [https://mochajs.org/](https://mochajs.org/)
+* Assert module: [https://nodejs.org/api/assert.html](https://nodejs.org/api/assert.html)
