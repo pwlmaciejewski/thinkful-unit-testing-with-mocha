@@ -27,7 +27,17 @@ You should get the following output:
 
   1 passing (8ms)
 ```
+
+## Agenda
+
+* How to install and run Mocha
+* How Mocha test cases works
+* Use nested `describe` and `before` to DRY your code
+* How to use `skip` and `only` methods
+* Asynchronous tests with Mocha
+
 ## Materials
 
 * Mocha's documentation: [https://mochajs.org/](https://mochajs.org/)
 * Assert module: [https://nodejs.org/api/assert.html](https://nodejs.org/api/assert.html)
+* FS module: [https://nodejs.org/api/fs.html](https://nodejs.org/api/fs.html)

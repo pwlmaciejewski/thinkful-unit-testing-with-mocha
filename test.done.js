@@ -1,5 +1,6 @@
 var Store = require('./store.done');
 var assert = require('assert');
+var fs = require('fs');
 
 describe('Store', function() {
   describe('Initial state', function() {
@@ -36,9 +37,42 @@ describe('Store', function() {
     });
   });
 
-  describe('getState()', function() {
-    it.skip('Returns a copy of the state', function() {
-      assert.ok(false);
+  describe.skip('getState()', function() {
+    it('Returns a copy of the state', function() {
+      var store = new Store();
+      var state = store.getState();
+      state.foo = 'bar';
+      assert.notEqual(store.getState().foo, 'bar');
+    });
+  });
+
+  describe('save()', function() {
+    before(function(done) {
+      var store = new Store({
+        foo: 'bar'
+      });
+      store.save(done);
+    })
+
+    after(function(done) {
+      fs.unlink('./store.json', function(err) {
+        done();
+      });
+    });
+
+    it('Creates state.json', function(done) {
+      fs.stat('./store.json', function(err, stats) {
+        assert.ok(stats);
+        done();
+      });
+    });
+
+    it('Saves actual state', function(done) {
+      fs.readFile('./store.json', function(err, data) {
+        var state = JSON.parse(data.toString());
+        assert.equal(state.foo, 'bar');
+        done();
+      });
     });
   });
 });
